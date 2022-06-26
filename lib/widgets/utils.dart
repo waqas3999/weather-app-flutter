@@ -8,6 +8,7 @@ Color app_Whitecolor=Color(0xFFFFFFFF);
 Color app_Btn_bgcolor=Color(0xFFE0E0E0);
 Color app_Grey_textcolor=Color(0xFFA8A8A8);
 Color app_Cont_Textcolor=Color(0xFFF6F6F6);
+Color app_hscolor=Color(0xFF5F5F5F);
 
 
 /////App TextStyles
@@ -80,8 +81,23 @@ TextStyle heading8=GoogleFonts.poppins(
 TextStyle heading9=GoogleFonts.poppins(
     fontSize: 22,
     fontWeight: FontWeight.w400,
+    color: app_Whitecolor,
+    fontStyle: FontStyle.normal,
+    letterSpacing: 33*(0.01 / 100)
+);
+//
+TextStyle heading10=GoogleFonts.poppins(
+    fontSize: 20,
+    fontWeight: FontWeight.w500,
     color: app_Blackcolor,
     fontStyle: FontStyle.normal,
-    letterSpacing: 33*(1 / 100)
+    letterSpacing: 30*( 0/ 100)
 );
-
+//Sydney, Australia
+TextStyle heading11=GoogleFonts.poppins(
+    fontSize: 15,
+    fontWeight: FontWeight.w400,
+    color: app_hscolor,
+    fontStyle: FontStyle.normal,
+    letterSpacing: 22*( 0/ 100)
+);
