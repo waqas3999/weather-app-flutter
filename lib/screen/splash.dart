@@ -19,7 +19,18 @@ class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
+      body: Column(
+        children: [
+          Container(
+      width: MediaQuery.of(context).size.width,
+      height: MediaQuery.of(context).size.height,
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image:AssetImage("images/splash.png",),
+          fit: BoxFit.fill,
+          )
+        ],
+      ),
     );
   }
 }
