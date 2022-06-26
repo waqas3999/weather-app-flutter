@@ -7,6 +7,8 @@ Color app_Bluecolor=Color(0xFF6DC9EF);
 Color app_Whitecolor=Color(0xFFFFFFFF);
 Color app_Btn_bgcolor=Color(0xFFE0E0E0);
 Color app_Grey_textcolor=Color(0xFFA8A8A8);
+Color app_Cont_Textcolor=Color(0xFFF6F6F6);
+
 
 /////App TextStyles
 //Splash heading Powered By Tech Idara
@@ -66,5 +68,20 @@ TextStyle heading7=GoogleFonts.poppins(
     color: app_Blackcolor,
     fontStyle: FontStyle.normal,
     letterSpacing: 63.5*(-0.5 / 100)
+);
+TextStyle heading8=GoogleFonts.poppins(
+    fontSize: 17,
+    fontWeight: FontWeight.w500,
+    color: app_Blackcolor,
+    fontStyle: FontStyle.normal,
+    letterSpacing: 63.5*(-0.5 / 100)
+);
+//Australia
+TextStyle heading9=GoogleFonts.poppins(
+    fontSize: 22,
+    fontWeight: FontWeight.w400,
+    color: app_Blackcolor,
+    fontStyle: FontStyle.normal,
+    letterSpacing: 33*(1 / 100)
 );
 
