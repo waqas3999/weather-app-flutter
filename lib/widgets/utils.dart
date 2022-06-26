@@ -101,3 +101,11 @@ TextStyle heading11=GoogleFonts.poppins(
     fontStyle: FontStyle.normal,
     letterSpacing: 22*( 0/ 100)
 );
+//
+TextStyle heading12=GoogleFonts.poppins(
+    fontSize: 22,
+    fontWeight: FontWeight.w400,
+    color: app_Blackcolor,
+    fontStyle: FontStyle.normal,
+    letterSpacing: 33*(1/ 100)
+);

@@ -8,7 +8,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  String dropdownValue='London';
+  String dropdownValue='Karachi';
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,15 +37,15 @@ class _HomeState extends State<Home> {
       autofocus: true,
     alignment: Alignment.center,
     value: dropdownValue,
-    icon:  Icon(Icons.keyboard_arrow_down,size: 25,color: app_Whitecolor,),
+    icon:  Icon(Icons.keyboard_arrow_down,size: 25,color: app_Blackcolor,),
     elevation: 16,
-    style:  heading9,
+    style:  heading12,
     onChanged: (String? newValue) {
     setState(() {
     dropdownValue = newValue!;
     });
     },
-    items: <String>['London', 'Dubai', 'Gilgit', 'Afirca']
+    items: <String>['Karachi', 'Punjab', 'Gilgit', 'Quetta']
         .map<DropdownMenuItem<String>>((String value) {
     return DropdownMenuItem<String>(
     value: value,
@@ -59,7 +59,7 @@ class _HomeState extends State<Home> {
          ),
 
           Padding(
-            padding: const EdgeInsets.only(top: 610),
+            padding: const EdgeInsets.only(top: 610,left: 22,right: 10),
             child: Row(
               children: [
             Text("Today",style: heading10,),
