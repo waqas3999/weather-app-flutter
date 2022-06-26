@@ -23,8 +23,8 @@ class _SplashState extends State<Splash> {
       body: Column(
         children: [
       Container(
-      width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height,
+      width: 129,
+      height: 134,
       decoration: BoxDecoration(
         image: DecorationImage(
           image:AssetImage("images/splash.png",),
