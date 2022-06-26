@@ -6,7 +6,7 @@ Color app_Greycolor=Color(0xFFBFBFBF);
 Color app_Bluecolor=Color(0xFF6DC9EF);
 Color app_Whitecolor=Color(0xFFFFFFFF);
 Color app_Btn_bgcolor=Color(0xFFE0E0E0);
-Color app_WhiteSeccolor=Color(0xFFF4F5F9);
+Color app_Grey_textcolor=Color(0xFFA8A8A8);
 
 /////App TextStyles
 //Splash heading Powered By Tech Idara
@@ -43,6 +43,28 @@ TextStyle heading4=GoogleFonts.poppins(
     letterSpacing: 63.5*(-0.5 / 100)
 );
 
-
-//App text Content without heading
+//// Select Current Location
+TextStyle heading5=GoogleFonts.poppins(
+    fontSize: 20,
+    fontWeight: FontWeight.w500,
+    color: app_Blackcolor,
+    fontStyle: FontStyle.normal,
+    letterSpacing: 63.5*(-0.5 / 100)
+);
+//// Select Current Location
+TextStyle heading6=GoogleFonts.poppins(
+    fontSize: 20,
+    fontWeight: FontWeight.w500,
+    color: app_Whitecolor,
+    fontStyle: FontStyle.normal,
+    letterSpacing: 63.5*(-0.5 / 100)
+);
+/////Select City
+TextStyle heading7=GoogleFonts.poppins(
+    fontSize: 30,
+    fontWeight: FontWeight.w600,
+    color: app_Blackcolor,
+    fontStyle: FontStyle.normal,
+    letterSpacing: 63.5*(-0.5 / 100)
+);
 

@@ -9,27 +9,27 @@ class CurrentButton extends StatelessWidget {
     double heightVariable = MediaQuery.of(context).size.height;
     double widthVariable = MediaQuery.of(context).size.width;
     return Padding(
-      padding: const EdgeInsets.all(17),
+      padding: const EdgeInsets.only(left: 22,right: 21,top: 28),
       child: Container(
-          height: 50,
+          height: 72,
           width: widthVariable,
           child: ElevatedButton(
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all<Color>( app_Btn_bgcolor),
-              shadowColor: MaterialStateProperty.all<Color>(app_Bluecolor)
+
             ),
             onPressed: (){
               Navigator.of(context).push(MaterialPageRoute(builder: (_)=> Landing()));
             },
-            child:  Text(
-              "Select Current Location",style: TextStyle(
-                fontSize: 20,
-                fontFamily: "Poppins",
-                color: Colors.white,
-            ),
-            )
-          )
+            child: Row(
+    children:[Text("Select Current Location",style: heading5),
+       Spacer(),
+       SizedBox(
+           width: 20,
+           child: Image.asset("images/backarrow.png")),
+
+    ])
       ),
-    );
+    ));
   }
 }
