@@ -22,14 +22,16 @@ class _SplashState extends State<Splash> {
     return Scaffold(
       body: Column(
         children: [
-      Container(
-      width: 129,
-      height: 134,
-      decoration: BoxDecoration(
-        image: DecorationImage(
-          image:AssetImage("images/splash.png",),
-          fit: BoxFit.fill,
-        )))
+      Center(
+        child: Container(
+        width: 129,
+        height: 134,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image:AssetImage("images/splash.png",),
+            fit: BoxFit.contain,
+          ))),
+      )
         ],
       ),
     );
